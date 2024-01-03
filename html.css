@@ -1,0 +1,169 @@
+*{ margin:0;
+    padding:0;
+    font-family:sans-serif;
+ }
+/* define banner structure only image plante */
+.banner{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(wall.jpg);
+    background-size:cover;
+    background-position: center;
+       }
+/*logo define on web page and also aline bothside */
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+        }
+/* logo place customise*/
+.logo{
+    width: 120px;
+    cursor: pointer;
+     }
+/* space b/w menu */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+             }
+/* colour change */
+.navbar ul li a{
+    text-decoration:none;
+    color:aqua;
+    text-transform: uppercase;
+               }
+/* underline b/w things  */
+navbar ul li::after{
+    content: '';
+    height:3px;
+    width: 0%;
+    background:orange;
+    position:absolute;
+    left:0;
+    bottom:-10;
+    transition:0.5s;
+    }
+/* come line*/
+.navbar ul li:hover::after{
+    width:100%;
+    
+}               
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform:translater(-50%);
+    text-align: center;
+    color: cadetblue; 
+   
+        }
+.content h1{
+    font-size:50px;
+    margin-top: 80px;
+    
+    
+            }
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+           }
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px :10px;
+    border-radius: bold;
+    border:2px solid #00968;
+    background:transparent;
+    color:darkslategrey;
+    cursor:pointer;
+    position:relative;
+    overflow : hidden;
+    
+    
+    
+}
+span{
+    background: #009688;
+    height:100%;
+    width:0;
+    border-radius:25px;
+    position:absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;;
+    
+}
+
+button:hover{
+    border:none;
+}
+#sri{
+    width:100%;
+    height:500%vh;
+    background-image:url();
+    font-family: sans-serif;
+    
+    background-size:cover;
+    background-position: center; 
+        } 
+#profile{
+    padding-top:50px;
+    position: absolute;  
+    }
+#tho{
+    color:lightcoral;
+    font-family:sans-serif;
+    align-items: stretch;
+    padding-left:40px;
+    }
+#imp{
+    color:lightcoral;
+    text-decoration-color: fuchsia;
+    padding-left: 50px;
+    }
+#pap{
+    text-align: left;
+    
+    padding-left: 200px;
+     }
+#papa{
+    margin-left: 750px;
+    align-items:fleborder x-start;
+    text-align: right;
+    object-position: top;
+    column-gap: normal;
+    border-radius: 100%;
+    }
+#ed {
+   text-align: left;
+    padding-bottom:10px;
+    padding-left: 100px;
+    background-image: url();
+    background-size: cover;
+    color:darkolivegreen;
+    font-family: monospace;
+     }
+#bg3{
+    
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    }
+#sir{
+    margin-left: 800px;
+    text-align: right;
+    border-radius: 20%;
+    }
+ #saur{margin:25px 50px 25px 100px;
+    text-decoration:solid;
+    font-family: caveat-semi bold;  
+    }
+         
+  
